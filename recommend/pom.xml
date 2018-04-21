@@ -110,11 +110,7 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.16</version>			
 		</dependency>
-		<dependency>
-			<groupId>com.handsome</groupId>
-			<artifactId>common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!--mahout-->
   </dependencies>
   
   <build>
