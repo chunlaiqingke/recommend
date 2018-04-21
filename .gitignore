@@ -1,22 +1,38 @@
-# Compiled class file
-*.class
+ipse
+.classpath
+.project
+.settings/
+.metadata/
+Servers/
+.recommenders/
 
-# Log file
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+huapin.iml
 *.log
+*.class
+src/main/webapp/WEB-INF/class
+src/main/webapp/WEB-INF/classes
 
-# BlueJ files
-*.ctxt
+ant
+bin/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# STS
+.springBeans
+.externalToolBuilders
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+*.bak
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+logs/
+log/
+
+!**/src/main/bin
